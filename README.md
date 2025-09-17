@@ -1,3 +1,6 @@
+<img width="1094" height="686" alt="image" src="https://github.com/user-attachments/assets/02524998-28c1-4ba5-a698-0879b6c059f7" />
+
+
 # 🕷️ Web Crawler Tool
 
 A powerful, **ethical web crawler tool** designed for educational purposes to extract emails, phone numbers, and links from websites.
@@ -28,7 +31,7 @@ A powerful, **ethical web crawler tool** designed for educational purposes to ex
 Clone or download the repository, then install the required dependencies:
 
 ```bash
-pip install -r requirements.txt
+**pip install -r requirements.txt
 
 Usage
 
@@ -40,53 +43,39 @@ Enter the target website URL when prompted:
 
 💻 Enter the website/URL you want to crawl (or 'quit' to exit): https://example.com
 
-📋 Requirements
+---
+
+##  📋 Requirements
 
     Python 3.6+
-
     Required packages:
 
         requests==2.31.0
-
         beautifulsoup4==4.12.2
-
         lxml==4.9.3
-
         urllib3==2.0.4
 
-🛠️ How It Works
+##   🛠️ How It Works
 
     URL Processing – The crawler starts with a seed URL and processes pages systematically
-
     Content Analysis – Each page is analyzed for emails, phone numbers, and links
-
     Respectful Crawling – Implements delays between requests and follows robots.txt rules
-
     Data Extraction – Uses regex patterns to identify contact information
-
     Report Generation – Creates detailed timestamped reports in text format
 
-📊 Output
+##   📊 Output
 
 The tool generates comprehensive reports with:
-
     Crawl date and time
-
     Number of pages crawled
-
     All discovered email addresses
-
     All discovered phone numbers
-
     Internal and external links
-
     Complete list of crawled URLs
-
 Sample output filename:
-
 crawl_report_1_20231025_143022.txt
 
-⚠️ Important Notes
+ ##  ⚠️ Important Notes
 
     This tool is for educational purposes only
 
@@ -131,12 +120,13 @@ file for details.
 AashishCyberH4CKS – Security Researcher & Developer
 🆘 Support
 
-If you encounter any issues or have questions:
+If you encounter any issues or have questions:**
 
     Check that all dependencies are properly installed
 
     Ensure you're using a supported Python version (3.6+)
 
     Verify that the target website is accessible and allows crawling
+
 
     ⚡ Remember: With great power comes great responsibility. Always use this tool ethically and legally. 🛡️
